@@ -36,7 +36,7 @@ def extract_tabular_info(json_file_path):
 
 # Example usage
 # Get the name of the first file in the ./output directory
-output_dir = './output'
+output_dir = './output/structured-2018-04-08-proleague1'
 first_file_name = next(os.scandir(output_dir)).name
 
 # Update the json_file_path with the first file name
